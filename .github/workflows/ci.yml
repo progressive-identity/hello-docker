@@ -23,5 +23,5 @@ jobs:
         uses: docker/build-push-action@v4
         with:
           push: true
-          file: "{context}/Docker/Dockerfile"
+          file: Docker/Dockerfile
           tags: simonprieul/hello-docker:prod
