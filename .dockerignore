@@ -1,0 +1,6 @@
+# Exlude all
+*
+# Include what is needed
+!package*.json
+!tsconfig.json
+!src/**
